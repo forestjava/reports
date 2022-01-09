@@ -1,0 +1,6 @@
+.iframe {
+  flex-grow: 1;
+  overflow: scroll;
+
+  border: none;
+}

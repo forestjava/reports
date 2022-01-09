@@ -1,0 +1,26 @@
+.nav {
+  gap: 30px;
+}
+
+.link {
+  color: var(--brand-text);
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+
+  white-space: nowrap;
+}
+
+.active {
+  color: var(--brand-blue);
+  border-bottom: 1px solid var(--brand-blue);
+}
+
+.link:hover {
+  color: var(--brand-blue-hover);
+}
+
+.active:hover {
+  border-bottom-color: var(--brand-blue-hover);
+}

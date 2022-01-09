@@ -1,0 +1,12 @@
+.input {
+  border: 1px solid #DEE1E7;
+  border-radius: 4px;
+
+  font-size: 16px;
+
+  padding: 14px 16px;
+}
+
+.input:focus-visible {
+  outline-color: var(--brand-blue-hover);
+}

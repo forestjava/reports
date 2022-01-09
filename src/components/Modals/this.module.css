@@ -1,0 +1,50 @@
+.fullscreen {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+}
+
+.underlay {
+  background: black;
+  opacity: 0.6;
+
+}
+
+.overlay {
+  background: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  box-shadow: 0px 4px 10px rgba(1, 43, 77, 0.1);
+  border-radius: 4px;  
+}
+
+.fieldset {
+  min-width: 840px;
+  padding: 50px;
+
+  gap: 30px;
+}
+
+.field {
+  gap: 10px;
+}
+
+.confirm {
+  width: 500px;
+  padding: 50px 40px;
+
+  gap: 40px;
+}
+
+.confirmText {
+  font-size: 22px;
+  text-align: center;
+}

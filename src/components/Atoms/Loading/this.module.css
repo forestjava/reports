@@ -1,0 +1,41 @@
+@keyframes rotating {
+  from {
+    transform: rotate(0);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinner {
+  --spinner-size: 60px;
+
+  width: var(--spinner-size);
+  height: var(--spinner-size);
+  border-radius: var(--spinner-size);
+  border: 4px solid ;
+  border-left-color: var(--brand-blue);
+  border-top-color: var(--brand-blue);
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  animation: rotating 1s linear infinite;
+
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  margin-left: calc(var(--spinner-size)/-2);
+  margin-top: calc(var(--spinner-size)/-2);
+
+  display: none;
+}
+
+@keyframes showing {
+  to {
+    display: block;
+  }
+}
+
+.visible {
+  display: block;
+  /* animation: showing 0s linear 0s 1; */
+}

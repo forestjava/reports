@@ -1,0 +1,17 @@
+.swither {
+  font-size: 18px !important;
+
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rotated {
+  transform: rotate(180deg);
+}
+
+.popover {
+  right: 0;
+  top: 50px;
+  min-width: 200px;
+}

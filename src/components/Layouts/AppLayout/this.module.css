@@ -1,0 +1,47 @@
+.header {
+  height: 70px;
+  border-bottom: 1px solid #F1F3F8;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.left {
+  flex-grow: 0;
+  min-width: 450px;
+  transition: min-width 400ms;
+}
+
+.compact {
+  min-width: 138px;
+}
+
+.right {
+  flex-grow: 1;
+}
+
+.header .left {
+  padding: 15px 30px;
+  gap: 30px;  
+}
+
+.header .right {
+  justify-content: space-between;
+  padding-right: 30px;
+}
+
+.content .left {
+  padding: 0 30px;
+}
+
+.expand {
+  width: 44px;
+  height: 44px;
+  padding: 10px !important;
+  margin-top: 20px;
+}
+
+.expand.admin {
+  margin-top: 33px;
+}

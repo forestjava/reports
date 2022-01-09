@@ -1,0 +1,27 @@
+.tabs {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  gap: 33px;
+}
+
+.tab {
+  cursor: pointer;
+  gap: 9px;
+}
+
+.selected {
+
+}
+
+.name {
+  color: #999BA9;
+}
+
+.selected .name {
+  color: var(--brand-text);
+}
+
+
+.close {
+
+}

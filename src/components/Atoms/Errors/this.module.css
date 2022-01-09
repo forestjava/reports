@@ -1,0 +1,15 @@
+.toasts {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  
+  gap: 0.5rem;
+}
+
+.toast {
+  background: #A60808;
+  color: white;
+
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
